@@ -27,7 +27,9 @@ pass: demo
 2.	Activate the plugin through the 'Plugins' menu in WordPress
 3.	Go to Dashboard > Maintenance
 
-
+== Screenshots ==
+1. Dashboard
+1. Login page
 
 = 1.0 =
 * initial release
