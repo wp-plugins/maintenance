@@ -3,7 +3,7 @@ Contributors: Fruitfulcode
 Donate link: http://fruitfulcode.com/
 Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
 Requires at least: 2.9.2
-Tested up to: 3.0.1
+Tested up to: 3.3.2
 Stable tag: 1.0
 
 Plugin closes your website on maintenance.
