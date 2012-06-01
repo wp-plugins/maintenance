@@ -8,8 +8,8 @@
 		<label for="theme_logo">Logo</label>
 			<input type="file" id="theme_logo" name="lib_options[logo]" />
 			<?php if ( $lib_options['logo'] ): ?><input class="button remove" type="submit" name="remove_logo" value="x" /><?php endif; ?>
-		<label for="body_bg">Body background</label>
+		<label for="body_bg">Background image</label>
 			<input type="file" id="body_bg" name="lib_options[body_bg]" />
 			<?php if ( $lib_options['body_bg'] ): ?><input class="button remove" type="submit" name="remove_bg" value="x" /><?php endif; ?>
-		<label for="body_bg_color">Body background color</label>
+		<label for="body_bg_color">Background color</label>
 			<input type="text" id="body_bg_color" name="lib_options[body_bg_color]" value="<?php echo ( isset( $lib_options['body_bg_color'] ) ) ? stripslashes($lib_options['body_bg_color']) : '#fff'; ?>" />

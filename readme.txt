@@ -2,7 +2,7 @@
 Contributors: Fruitfulcode
 Donate link: http://fruitfulcode.com/
 Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
-Requires at least: 2.9.2
+Requires at least: 3.0
 Tested up to: 3.3.2
 Stable tag: 1.0
 
