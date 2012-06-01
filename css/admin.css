@@ -26,10 +26,10 @@
 #options h3{margin:0 0 16px 4px;}
 #options #steps{margin:0 0 20px 15px;padding:0 0 0 14px;}
 #options #steps li{margin:0 0 5px 0;padding:0;}
-.theme-options{border:0;margin:0;padding:0;width:470px}
+.theme-options{border:0;margin:0;padding:0;width:471px}
 .theme-options h4{margin-top:0;}
 .theme-options div{border:0;margin:0 0 30px 0;padding:10px 0 0 0px;}
-.theme-options label{display:block;float:left;margin:0 0 5px;padding-right:15px;text-align:right;width:115px;padding-top:4px;}
+.theme-options label{display:block;float:left;margin:0 0 5px;padding-right:15px;text-align:right;width:118px;padding-top:4px;}
 .theme-options input,#options #tabs .theme-options textarea{margin:0 0 15px 0;width:300px;}
 .theme-options textarea{height:80px;}
 .theme-options .explanation{margin-top:-15px;font-size:10px;color:#ccc;}
