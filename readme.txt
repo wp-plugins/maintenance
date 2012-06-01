@@ -3,15 +3,15 @@ Contributors: Fruitfulcode
 Donate link: http://fruitfulcode.com/
 Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
 Requires at least: 2.9.2
-Tested up to: 3.0.1
+Tested up to: 3.3.2
 Stable tag: 1.0
 
-Plugin closes your website on maintenance.
-Your site is not accessible to visitors and search engines in maintenance
+Your page is closed for maintenance.
+Search engines and regular users do not see your site. Access only by customer login 
 
 == Description ==
 
-On maintenance page have custom login when you enter the correct username and password, the user or administrator can see the site. 
+Maintenance page have custom login when you enter the correct username and password, the user or administrator can see the site. 
 This is very handy if you're developing a site and want to show the client what its current status. 
 
 You can give access for users with wordpress permissions.
@@ -33,6 +33,14 @@ pass: demo
 == Screenshots ==
 1. Dashboard
 1. Login page
+
+== Frequently Asked Questions ==
+
+= Where can I find out the username and password to get to the site? = 
+
+You can use your administrator access or create new user in wordpress dashboard
+http://yousite.com/wp-admin/users.php
+
 
 = 1.0 =
 * initial release
