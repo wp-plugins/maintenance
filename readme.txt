@@ -42,5 +42,7 @@ You can use your administrator access or create new user in wordpress dashboard
 http://yousite.com/wp-admin/users.php
 
 
+== Changelog ==
+
 = 1.0 =
 * initial release
