@@ -5,6 +5,8 @@ Tags: maintenance, login, under-construction, administration, offline, unavailab
 Requires at least: 3.0
 Tested up to: 3.3.2
 Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Your page is closed for maintenance. Search engines and regular users don't see your site. Access only by customer login 
 
@@ -45,3 +47,5 @@ http://yousite.com/wp-admin/users.php
 
 = 1.0 =
 * initial release
+
+== Upgrade Notice ==
