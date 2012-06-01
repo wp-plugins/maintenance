@@ -2,9 +2,9 @@
 /*
 	Plugin Name: Maintenance
 	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
-	Description: Plugin closes your website on maintenance. Your site is not accessible to visitors and search engines in maintenance.
+	Description: Your page is closed for maintenance. Search engines and regular users don't see your site. Access only by customer login 
 	Version: 1.0
-	Author: Fruitfulcode
+	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
 */

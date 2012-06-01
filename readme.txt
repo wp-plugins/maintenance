@@ -6,8 +6,7 @@ Requires at least: 2.9.2
 Tested up to: 3.3.2
 Stable tag: 1.0
 
-Your page is closed for maintenance.
-Search engines and regular users do not see your site. Access only by customer login 
+Your page is closed for maintenance. Search engines and regular users don't see your site. Access only by customer login 
 
 == Description ==
 
