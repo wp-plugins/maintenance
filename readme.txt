@@ -8,22 +8,20 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Your page is closed for maintenance. Search engines and regular users don't see your site. Access only by customer login 
+Close your website on maintenance. Search engines and regular users don't see your site. Access only by login
 
 == Description ==
 
-Maintenance page have custom login when you enter the correct username and password, the user or administrator can see the site. 
+If you want to do technical works on your site, and want have limit access.<br>
+You can use our plugin to configure your maintenance page.<br>
+Search engines and regular users don't see your site. Access only by login <br>
 This is very handy if you're developing a site and want to show the client what its current status. 
-
-You can give access for users with wordpress permissions.
-Username and password is set in the wp-users.
 
 
 <h3>Demo:</h3> 
-http://maintenance.fruitfulcode.com
-login: demo
+http://maintenance.fruitfulcode.com<br>
+login: demo <br>
 pass: demo
-
 
 == Installation ==
 
