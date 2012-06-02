@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Fruitfulcode
+Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
 Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
 Requires at least: 3.0
