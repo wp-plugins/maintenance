@@ -18,10 +18,9 @@ Search engines and regular users don't see your site. Access only by login <br>
 This is very handy if you're developing a site and want to show the client what its current status. 
 
 
-<h3>Demo:</h3> 
-http://maintenance.fruitfulcode.com<br>
-login: demo <br>
-pass: demo
+<h3>Links:</h3> 
+<a href="http://fruitfulcode.com/demo/">DEMO</a>
+<a href="http://fruitfulcode.com/blog/wordpress-maintenance-plugin/">More information</a>
 
 == Installation ==
 
