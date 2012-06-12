@@ -21,8 +21,8 @@ This is very handy if you're developing a site and want to show the client what 
 
 
 <h3>Links:</h3> 
-<a href="http://fruitfulcode.com/demo/">DEMO</a>
-<a href="http://fruitfulcode.com/blog/wordpress-maintenance-plugin/">More information</a>
+<a target="_blank" href="http://fruitfulcode.com/demo/">DEMO</a><br>
+<a target="_blank" href="http://fruitfulcode.com/blog/wordpress-maintenance-plugin/">More information</a>
 
 == Installation ==
 
