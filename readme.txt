@@ -18,6 +18,8 @@ Search engines and regular users don't see your site. Access only by login <br>
 This is very handy if you're developing a site and want to show the client what its current status. 
 
 
+
+
 <h3>Links:</h3> 
 <a href="http://fruitfulcode.com/demo/">DEMO</a>
 <a href="http://fruitfulcode.com/blog/wordpress-maintenance-plugin/">More information</a>
@@ -38,6 +40,9 @@ This is very handy if you're developing a site and want to show the client what 
 
 You can use your administrator access or create new user in wordpress dashboard
 http://yousite.com/wp-admin/users.php
+
+= If I incorrectly write a login and password I will see the error on the page wp-login? =
+No, it will be display error on current maintenance page, without redirect to wp-login page
 
 
 == Changelog ==
