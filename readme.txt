@@ -22,8 +22,8 @@ Take your site down from public view with a click of a button hiding the site wh
 
 <h3>Extended version</h3>
 
-You can purchase an extended version of our plug-in and support our team
-<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350">Link</a>
+You can purchase an extended version of our plug-in and support our team <br>
+<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350">LINK</a>
 
 == Installation ==
 
