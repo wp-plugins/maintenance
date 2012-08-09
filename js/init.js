@@ -19,11 +19,9 @@ jQuery(window).ready(function(){
 			else labels = options.labels;
 
 			// Creating the new checkbox markup:
-			var checkBox = jQuery('<span>',{
-				class	: 'tzCheckBox '+(this.checked?'checked':''),
-				html:	'<span class="tzCBContent">'+labels[this.checked?0:1]+
-						'</span><span class="tzCBPart"></span>'
-			});
+			var checkBox = jQuery('<span>');
+				 checkBox.addClass(this.checked?' tzCheckBox checked':'tzCheckBox');
+			     checkBox.prepend('<span class="tzCBContent">'+labels[this.checked?0:1]+ '</span><span class="tzCBPart"></span>');
 
 			// Inserting the new checkbox, and hiding the original:
 			checkBox.insertAfter(originalCheckBox.hide());
@@ -45,5 +43,5 @@ jQuery(window).ready(function(){
 		});
 	};
 	
-	jQuery('input[type=checkbox]').tzCheckbox({labels:['On','Off']});
+	jQuery('#ch_location').tzCheckbox({labels:['On','Off']});
 	});

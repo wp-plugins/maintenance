@@ -2,13 +2,13 @@
 /*
 	Plugin Name: Maintenance
 	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
-	Description: Close your website on maintenance. Search engines and regular users don't see your site. Access only by login
-	Version: 1.0
+	Description: Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
+	Version: 1.1
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
 */
-/*  Copyright 2012  Fruitfulcode  (email : fruitfulcode@gmail.com)
+/*  Copyright 2012  Fruitfulcode  (email : support@fruitfulcode.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as 
@@ -27,13 +27,19 @@
 	
 	define( 'LIB_DIR', 'lib' ); 
 	define( 'PLUGIN_URL', WP_PLUGIN_URL . '/' . basename (dirname ( __FILE__ ) ) . '/' );
-
+	
+	include_once 'functions.php';
+	
+	$mt_options = mt_get_option();
+	if ($mt_options['state'] == "maintenance") { 
+		 add_filter('show_admin_bar', '__return_false');  																	 
+																				 }
+																				 
 	add_action( 'template_redirect', 'mt_template_redirect' );
 	add_action( 'admin_menu', 'dashboard_menu' );
 	add_action( 'wp_logout','user_logout');
 	register_deactivation_hook( __FILE__, 'deactivate_plugin' );
-			  
-	include_once 'functions.php';
+	
 	include_once 'page-options.php';
 
 	function dashboard_menu()
@@ -44,12 +50,10 @@
 	
 	function admin_head()
 	{	
+	
 		echo css_activate ();
-		
-		wp_enqueue_script( 'jquery-ui-core' );
-		wp_enqueue_script( 'jquery-ui-tabs' );
-		wp_enqueue_script( 'maintenance', PLUGIN_URL .'/js/init.js' );
-	    wp_enqueue_style  ('maintenance', PLUGIN_URL .'/css/admin.css' );	
+		wp_enqueue_script( 'maintenance', PLUGIN_URL .'js/init.js' );
+	    wp_enqueue_style  ('maintenance', PLUGIN_URL .'css/admin.css' );	
 	}
 	
 	function deactivate_plugin()

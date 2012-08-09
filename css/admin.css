@@ -15,35 +15,41 @@
 #confirmBox .gray span{background-position:-395px 0;}
 #confirmBox .gray:hover{background-position:-200px bottom;}
 #confirmBox .gray:hover span{background-position:-395px bottom;}
-#options{position:relative;}
-#options h1{color:#37312F;display:block;float:left;margin-bottom:40px;margin-left:20px;text-shadow:1px 0 20px #79BDF2;text-transform:capitalize;width:100%;font-family: 'Open Sans ',Arial,Helvetica,sans-serif;font-weight:normal;font-style:normal}
-#options h2{float:left;font-family: 'Open Sans ',Arial,Helvetica,sans-serif;font-size:35px;font-weight:bold;}
-#options select{margin:0 0 20px 6px;}
-#options .nav{position:absolute;top:25px;right:50px;text-align:right;}
-#options .nav li{display:inline;padding:0 5px;}
-#options .nav li a{color:#656656;font-size:11px;}
-#options .description{color:#ff0000;padding:0 0 20px 10px;width:450px;}
-#options h3{margin:0 0 16px 4px;}
-#options #steps{margin:0 0 20px 15px;padding:0 0 0 14px;}
-#options #steps li{margin:0 0 5px 0;padding:0;}
-.theme-options{border:0;margin:0;padding:0;width:471px; float: left}
+#maintenance-options {position:relative;}
+#maintenance-options h1 {font-size:35px;} 
+#maintenance-options h1, 
+#maintenance-options h2{float:left;font-family: 'Open Sans ',Arial,Helvetica,sans-serif;font-size:35px;font-weight:bold;}
+#maintenance-options select{margin:0 0 20px 6px;}
+#maintenance-options .nav{position:absolute;top:25px;right:50px;text-align:right;}
+#maintenance-options .nav li{display:inline;padding:0 5px;}
+#maintenance-options .nav li a{color:#656656;font-size:11px;}
+#maintenance-options .description{color:#ff0000;padding:0 0 20px 10px;width:450px;}
+#maintenance-options h3{margin:0 0 16px 4px;}
+#maintenance-options #steps{margin:0 0 20px 15px;padding:0 0 0 14px;}
+#maintenance-options #steps li{margin:0 0 5px 0;padding:0;}
+.theme-options{border:0;margin:0;padding:0;width:471px}
 .theme-options h4{margin-top:0;}
 .theme-options div{border:0;margin:0 0 30px 0;padding:10px 0 0 0px;}
 .theme-options label{display:block;float:left;margin:0 0 5px;padding-right:15px;text-align:right;width:118px;padding-top:4px;}
 .theme-options input,#options #tabs .theme-options textarea{margin:0 0 15px 0;width:300px;}
 .theme-options textarea{height:80px;}
 .theme-options .explanation{margin-top:-15px;font-size:10px;color:#ccc;}
-#options input.button{width:auto !important;}
-#options #credits{color:#d54e21;font-size:11px;}
+#maintenance-options input.button{width:auto !important;}
+#maintenance-options #credits{color:#d54e21;font-size:11px;}
 .fl{width:100%;float:left;}
 #theme{width:20%}
 .title{display:block;float:left;width:100%; margin-bottom: 20px;} 
 /*Checkbox*/
-.tzCheckBox{background:url( '../images/background.png ') no-repeat right bottom;display:inline-block;min-width:60px;height:33px;white-space:nowrap;position:relative;cursor:pointer;margin:10px 0 0 20px;}
-.tzCheckBox.checked{background-position:top left;margin:10px 0 0 6px;}
+.tzCheckBox{background:url( '../images/background.png ') no-repeat right bottom;display:inline-block;min-width:60px;height:33px;white-space:nowrap;position:relative;cursor:pointer;margin:18px 0 0 20px;}
+.tzCheckBox.checked{background-position:top left;margin:18px 0 0 6px;}
 .tzCheckBox .tzCBContent{color:white;line-height:31px;padding-right:38px;text-align:right;}
 .tzCheckBox.checked .tzCBContent{text-align:left;padding:0 0 0 38px;}
 .tzCBPart{background:url( '../images/background.png ') no-repeat left bottom;width:14px;position:absolute;top:0;left:-14px;height:33px;overflow:hidden;}
 .tzCheckBox.checked .tzCBPart{background-position:top right;left:auto;right:-14px;}
-.logo{float:left;margin-right:20px;padding-top:7px;}
+.logo{float:left;margin-right:20px;padding-top:15px;}
 .button-primary{width:82px !important;float:right}
+#contact-support {background-image: url("../images/mini-logo.png"); background-position: 0 3px; background-repeat: no-repeat; display: block; float: left; height: 30px; margin-left: 16px; margin-top: 50px; padding: 4px 42px;}
+
+*+html #maintenance-options.wrap form #general .title h1 {line-height:1em !important; margin-top:15px; }
+*+html .time-block,  .video-block, .html-block {margin-top:20px;}
+*+html .button-primary {width:100px !important}

@@ -146,12 +146,24 @@ $(document).ready(function() {
 	$(".password").focus(function() 	{ $(".pass-icon").css("left","-49px");});
 	$(".password").blur(function()   	{ $(".pass-icon").css("left","0px");});
 });
+		   
 </script>
 <script type="text/javascript" src="<?php echo PLUGIN_URL . LIB_DIR ?>/js/jquery.placeholder.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
     $('input[placeholder]').placeholder();
 });
+
+$(window).load(function() {
+	var vWrapWidth  = -$("#wrapper").width()/2;
+	var vWrapHeight = -$("#wrapper").height()/2;
+	       $("#wrapper").css({'margin-left' : vWrapWidth});
+		   $("#wrapper").css({'margin-top' : vWrapHeight});
+		   
+	var vCompWidth    = -$(".company a img").width()/2;
+	       $(".company a img").css({'margin-left' : vCompWidth});
+});
+	
 </script>
 </head>
 <body>	

@@ -28,7 +28,10 @@
 					'error' 		  => $_FILES['lib_options']['error'][$field_name]
 				 );
 		
-		$dir = WP_CONTENT_DIR . '/uploads/maintenance/';
+		/*$dir = WP_CONTENT_DIR . '/uploads/maintenance/';*/
+		    $upload_dir = wp_upload_dir();
+  		    $dir = $upload_dir[ 'basedir' ] . '/maintenance/';
+            $url = $upload_dir[ 'baseurl' ] . '/maintenance/';
 
 		if ( !file_exists( dirname($dir) ) ) {
 			mkdir( dirname($dir) );
@@ -40,7 +43,8 @@
 		if ( $file['name'] ) {
 			$filename = strtolower($field_name.'.'.end( explode( '.', $file['name'] ) ));
 			move_uploaded_file( $file['tmp_name'], $dir . $filename );
-			return WP_CONTENT_URL . '/uploads/maintenance/'.$filename;
+			/*return WP_CONTENT_URL . '/uploads/maintenance/'.$filename;*/
+			 return $url . $filename;
 		}
 		else {
 			$options = mt_get_option();

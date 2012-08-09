@@ -12,17 +12,18 @@ Close your website on maintenance. Search engines and regular users don't see yo
 
 == Description ==
 
-If you want to do technical works on your site, and want have limit access.<br>
-You can use our plugin to configure your maintenance page.<br>
-Search engines and regular users don't see your site. Access only by login <br>
-This is very handy if you're developing a site and want to show the client what its current status. 
-
-
+Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
 
 
 <h3>Links:</h3> 
-<a target="_blank" href="http://fruitfulcode.com/demo/">DEMO</a><br>
+<a target="_blank" href="http://fruitfulcode.com/maintenance/free">DEMO</a><br>
 <a target="_blank" href="http://fruitfulcode.com/blog/wordpress-maintenance-plugin/">More information</a>
+
+
+<h3>Extended version</h3>
+
+You can purchase an extended version of our plug-in and support our team
+<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350">Link</a>
 
 == Installation ==
 
@@ -46,6 +47,12 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 
 == Changelog ==
+
+= 1.1 =
+
+* Any logo images will be in center of page
+* Lastpass fields corrected width
+* Bug fixes
 
 = 1.0 =
 * initial release
