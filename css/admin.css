@@ -12,7 +12,7 @@
 #confirmBox .blue:hover{background-position:left bottom;}
 #confirmBox .blue:hover span{background-position:-195px bottom;}
 #confirmBox .gray{background-position:-200px top;text-shadow:1px 1px 0 #707070;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
-#confirmBox .gray span{background-position:-395px 0;}
+#confirmBox .gray span{background-position:-395px 0;} 
 #confirmBox .gray:hover{background-position:-200px bottom;}
 #confirmBox .gray:hover span{background-position:-395px bottom;}
 #maintenance-options {    position: relative; width: 430px; }
@@ -27,7 +27,7 @@
 #maintenance-options h3{margin:0 0 16px 4px;}
 #maintenance-options #steps{margin:0 0 20px 15px;padding:0 0 0 14px;}
 #maintenance-options #steps li{margin:0 0 5px 0;padding:0;}
-.theme-options{border:0;margin:0;padding:0;width:471px; float: left;}
+.theme-options{border:0;margin:0;padding:0;width:471px; float: left; }
 .theme-options h4{margin-top:0;}
 .theme-options div{border:0;margin:0 0 30px 0;padding:10px 0 0 0px;}
 .theme-options label{display:block;float:left;margin:0 0 5px;padding-right:15px;text-align:right;width:118px;padding-top:4px;}
