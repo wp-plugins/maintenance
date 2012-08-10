@@ -48,6 +48,10 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 == Changelog ==
 
+= 1.1.1=
+
+Css fixes
+
 = 1.1 =
 
 * Any logo images will be in center of page
