@@ -7,7 +7,7 @@
 #confirmBox .button{display:inline-block;background:url( '../images/buttons.png ') no-repeat;color:white;position:relative;height:33px;font:17px/33px 'Cuprum ', 'Lucida Sans Unicode ', 'Lucida Grande ',sans-serif;margin-right:15px;padding:0 35px 0 40px;text-decoration:none;border:none;}
 #confirmBox .button:last-child{margin-right:0;}
 #confirmBox .button span{position:absolute;top:0;right:-5px;background:url( '../images/buttons.png ') no-repeat;width:5px;height:33px}
-#confirmBox .blue{background-position:left top;text-shadow:1px 1px 0 #5889a2;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+#confirmBox .blue{background-position:left top;text-shadow:1px 1px 0 #5889a2;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}  
 #confirmBox .blue span{background-position:-195px 0;}
 #confirmBox .blue:hover{background-position:left bottom;}
 #confirmBox .blue:hover span{background-position:-195px bottom;}
