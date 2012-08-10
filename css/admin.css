@@ -15,7 +15,7 @@
 #confirmBox .gray span{background-position:-395px 0;}
 #confirmBox .gray:hover{background-position:-200px bottom;}
 #confirmBox .gray:hover span{background-position:-395px bottom;}
-#maintenance-options {position:relative;}
+#maintenance-options {    position: relative; width: 430px; }
 #maintenance-options h1 {font-size:35px;} 
 #maintenance-options h1, 
 #maintenance-options h2{float:left;font-family: 'Open Sans ',Arial,Helvetica,sans-serif;font-size:35px;font-weight:bold;}
@@ -27,7 +27,7 @@
 #maintenance-options h3{margin:0 0 16px 4px;}
 #maintenance-options #steps{margin:0 0 20px 15px;padding:0 0 0 14px;}
 #maintenance-options #steps li{margin:0 0 5px 0;padding:0;}
-.theme-options{border:0;margin:0;padding:0;width:471px}
+.theme-options{border:0;margin:0;padding:0;width:471px; float: left;}
 .theme-options h4{margin-top:0;}
 .theme-options div{border:0;margin:0 0 30px 0;padding:10px 0 0 0px;}
 .theme-options label{display:block;float:left;margin:0 0 5px;padding-right:15px;text-align:right;width:118px;padding-top:4px;}
