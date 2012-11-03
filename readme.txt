@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
-Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
+Tags: maintenance, maintenance mode, login, form, coming soon, under-construction, administration, offline, unavailable, landing page
 Requires at least: 3.0
 Tested up to: 3.3.2
 Stable tag: 1.1.1
