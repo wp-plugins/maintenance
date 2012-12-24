@@ -3,7 +3,7 @@
 	Plugin Name: Maintenance
 	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
 	Description: Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
-	Version: 1.1.1
+	Version: 1.2
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
@@ -31,10 +31,14 @@
 	include_once 'functions.php';
 	
 	$mt_options = mt_get_option();
-	if ($mt_options['state'] == "maintenance") { 
+	if (($mt_options['lib_options']['admin_bar_enabled'] == "1")) { 
+		 add_filter('show_admin_bar', '__return_true');  																	 
+	}	else {
 		 add_filter('show_admin_bar', '__return_false');  																	 
-																				 }
-																				 
+	}
+	
+	if ($mt_options['state'] == "maintenance") {/*maintenance mode is active*/}
+	
 	add_action( 'template_redirect', 'mt_template_redirect' );
 	add_action( 'admin_menu', 'dashboard_menu' );
 	add_action( 'wp_logout','user_logout');
@@ -47,6 +51,12 @@
 		$page = add_menu_page('Maintenance', 'Maintenance', 'manage_options', 'maintenance', 'mt_manage_options', PLUGIN_URL . '/images/icon-small.png');
 		add_action( "admin_print_styles-$page", 'admin_head' );
 	}
+	
+	
+	function mn_plugin_init() {
+		load_plugin_textdomain( 'maintenance', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	}
+	add_action('plugins_loaded', 'mn_plugin_init');
 	
 	function admin_head()
 	{	

@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
-Tags: maintenance, maintenance mode, login, form, coming soon, under-construction, administration, offline, unavailable, landing page
+Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
 Requires at least: 3.0
 Tested up to: 3.3.2
-Stable tag: 1.1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,7 +48,13 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 == Changelog ==
 
-= 1.1.1=
+= 1.2 =
+* Translation ready
+* Add Russian language
+* Add option for display admin bar
+* Css fixes for WP 3.5
+
+= 1.1.1 =
 
 Css fixes
 

@@ -41,18 +41,18 @@
 				
 						<div class="theme-options">
 							<?php  include_once dirname( __FILE__ ).'/'.LIB_DIR.'/options.php';  ?>
-							 <input type="submit" id="mt-submit" name="save_changes" class="button-primary" value="Save changes" />
+							 <input type="submit" id="mt-submit" name="save_changes" class="button-primary" value="<?php _e('Save changes', 'maintenance');?>" />
 						</div>  
 					</div>					 
 			</form>
 			
 			<!-- Contact Support-->
 			<div id="contact-support">
-				<a href="mailto:support@fruitfulcode.com" title="Contact Support" target="_blank">
-					Contact Support
+				<a href="mailto:support@fruitfulcode.com" title="<?php _e('Contact Support', 'maintenance');?>" target="_blank">
+					<?php _e('Contact Support', 'maintenance');?>
 				</a><br> 
-				<a href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350" title="Premium version" target="_blank">
-					Check out our extended version of plugin with new features
+				<a href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350" title="<?php _e('Premium version', 'maintenance');?>" target="_blank">
+					<?php _e('Check out our extended version of plugin with new features', 'maintenance');?>
 				</a><br>
 			</div>
 			<!-- End Contact Support-->		
