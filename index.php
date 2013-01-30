@@ -3,12 +3,12 @@
 	Plugin Name: Maintenance
 	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
 	Description: Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
-	Version: 1.2
+	Version: 1.2.1
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
 */
-/*  Copyright 2012  Fruitfulcode  (email : support@fruitfulcode.com)
+/*  Copyright 2013  Fruitful Code  (email : support@fruitfulcode.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as 
@@ -31,13 +31,17 @@
 	include_once 'functions.php';
 	
 	$mt_options = mt_get_option();
-	if (($mt_options['lib_options']['admin_bar_enabled'] == "1")) { 
-		 add_filter('show_admin_bar', '__return_true');  																	 
-	}	else {
-		 add_filter('show_admin_bar', '__return_false');  																	 
+		
+	if ($mt_options['state'] == "maintenance") {
+		if (($mt_options['lib_options']['admin_bar_enabled'] == "1")) { 
+			add_filter('show_admin_bar', '__return_true');  																	 
+		} else {
+			add_filter('show_admin_bar', '__return_false');  																	 
+		}
 	}
 	
-	if ($mt_options['state'] == "maintenance") {/*maintenance mode is active*/}
+	
+	/*maintenance mode is active*/
 	
 	add_action( 'template_redirect', 'mt_template_redirect' );
 	add_action( 'admin_menu', 'dashboard_menu' );
