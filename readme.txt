@@ -50,6 +50,7 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 = 1.2.1 =
 * Admin bar bug fix
+* Css fix
 
 = 1.2 =
 * Translation ready
