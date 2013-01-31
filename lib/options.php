@@ -1,15 +1,15 @@
 	<?php global $mt_option; $lib_options = ''; $lib_options = $mt_option['lib_options']; ?>
 		<div class="option-box">
 			<label for="page_title"><?php _e('Page title', 'maintenance');?></label>
-				<input type="text" id="page_title" name="lib_options[page_title]" value="<?php echo ( isset( $lib_options['page_title'] ) ) ? $lib_options['page_title'] : _e('Website is under construction', 'maintenance'); ?>" />
+				<input type="text" id="page_title" name="lib_options[page_title]" value="<?php echo ( isset( $lib_options['page_title'] ) ) ? stripslashes($lib_options['page_title']) : _e('Website is under construction', 'maintenance'); ?>" />
 		</div>			
 		<div class="option-box">
 			<label for="heading"><?php _e('Headline', 'maintenance');?></label>
-				<input type="text" id="heading" name="lib_options[heading]" value="<?php echo ( isset( $lib_options['heading'] ) ) ? $lib_options['heading'] : _e('Customer login', 'maintenance'); ?>" />
+				<input type="text" id="heading" name="lib_options[heading]" value="<?php echo ( isset( $lib_options['heading'] ) ) ? stripslashes($lib_options['heading']) : _e('Customer login', 'maintenance'); ?>" />
 		</div>	
 		<div class="option-box">
 			<label for="time_text"><?php _e('Description', 'maintenance');?></label>
-				<input type="text" id="time_text" name="lib_options[time_text]" value="<?php echo ( isset( $lib_options['time_text'] ) ) ? $lib_options['time_text'] : _e('Please login to see website', 'maintenance'); ?>" />
+				<input type="text" id="time_text" name="lib_options[time_text]" value="<?php echo ( isset( $lib_options['time_text'] ) ) ? stripslashes($lib_options['time_text']) : _e('Please login to see website', 'maintenance'); ?>" />
 		<div class="option-box">	
 		<label for="theme_logo"><?php _e('Logo', 'maintenance');?></label>
 			<input type="file" id="theme_logo" name="lib_options[logo]" />

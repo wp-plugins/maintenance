@@ -175,12 +175,12 @@ $(window).load(function() {
 				<form name="loginform" id="loginform" class="login-form" method="post">
 
 				<div class="header">
-						<h1><?php echo $mt_lib['heading']; ?></h1>
-						<span><?php echo $mt_lib['time_text']; ?></span>
+						<h1><?php echo stripslashes($mt_lib['heading']); ?></h1>
+						<span><?php echo stripslashes($mt_lib['time_text']); ?></span>
 				</div>
 
 				<div class="content">
-                    <div class="<?php echo $class_login; 		   ?>"></div>
+                    <div class="<?php echo $class_login;   ?>"></div>
 					<div class="<?php echo $class_password; ?>"></div>
                     <div class="inputs">
                         <input type="text" name="log" id="log" value="<?php echo wp_specialchars(stripslashes($user_login), 1); ?>" size="20"  class="input username" placeholder="Username"/>
