@@ -51,8 +51,8 @@
 				<a href="mailto:support@fruitfulcode.com" title="<?php _e('Contact Support', 'maintenance');?>" target="_blank">
 					<?php _e('Contact Support', 'maintenance');?>
 				</a><br> 
-				<a href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350" title="<?php _e('Premium version', 'maintenance');?>" target="_blank">
-					<?php _e('Check out our extended version of plugin with new features', 'maintenance');?>
+				<a href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode" title="<?php _e('Premium version', 'maintenance');?>" target="_blank">
+					<?php _e('PURCHASE EXTENDED VERSION', 'maintenance');?>
 				</a><br>
 			</div>
 			<!-- End Contact Support-->		
