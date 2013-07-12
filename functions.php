@@ -60,13 +60,12 @@
 	function mt_handle_template($option)
 	{
 		$dir = get_template_directory().'/';
-		
 		if (!is_user_logged_in()) {
 			switch ( $option['state'] ) {
 			case 'maintenance':
 				 {
 					/* load selected theme */
-					if ( $option['expiry_date'] ) {
+					if ( isset($option['expiry_date']) ) {
 						list( $date,$time ) = explode( '|', $option['expiry_date'] );
 						list( $month, $day, $year ) = explode( '.', $date );
 						list( $hour, $minute, $second ) = explode ( ':', $time );
