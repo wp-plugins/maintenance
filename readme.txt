@@ -3,8 +3,8 @@ Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
 Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 1.2.2
+Tested up to: 3.6
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,12 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 
 == Changelog ==
+
+= 1.2.3 = // 28.08.2013
+
+* Bug fix 
+* Wordpress 3.6 support
+* Warning Messages, open_basedir conflict - resolved.
 
 = 1.2.2 = // 12.07.2013
 

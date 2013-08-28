@@ -46,7 +46,7 @@
 	 	$dir = dirname(__FILE__).'/'.LIB_DIR.'/';
 		if ($handle = opendir($dir)) {
 			while (false !== ($file = readdir($handle))) {
-				if ($file != "." && $file != ".." && !is_file($file) && file_exists($dir.$file.'/index.php') ) {
+				if ($file != "." && $file != ".." && !is_file($file) && file_exists($dir.$file) ) {
 					$mt_themes[] = ucfirst($file);
 				}
 			}
