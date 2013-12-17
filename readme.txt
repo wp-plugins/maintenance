@@ -9,19 +9,33 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Install maintenance page on your WordPress website in few easy steps.
+
 == Description ==
 
 Easily close your wordpress website for maintenance. Try free version or purchase maintenance PRO with more useful features and extended HTML template.
 
+<h3>FEATURES</h3>
+<ul>
+<li>Html/CSS layout without images (retina ready) </li>
+<li>Backstretch fullscreen background</li>
+<li>Upload own logo</li>
+<li>Select color scheme</li>
+<li>Add your title, headline, text</li>
+<li>User login with validation</li>
+<li>Admin bar: show/hide</li>
+<li>503 error switcher</li>
+<li>Blur background effect</li>
+</ul>
+
 <h3>DEMO</h3>
 <a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">Promo website</a>
-<a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/live-demo/">Live demo</a><br>
 
 
 <h3>PRO version</h3>
 
 Purchase PRO version with extended functionality and new features <br>
 <a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode">Maintenance PRO</a>
+
 
 == Installation ==
 
