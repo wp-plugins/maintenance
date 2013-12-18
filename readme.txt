@@ -4,7 +4,7 @@ Donate link: http://fruitfulcode.com/
 Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 2.0.1
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Install maintenance page on your WordPress website in few easy steps.
 
 == Description ==
 
-Easily close your WordPress website for maintenance. Try free version or purchase maintenance PRO with more useful features and extended HTML template.
+Easily close your wordpress website for maintenance. Try free version or purchase maintenance PRO with more useful features and extended HTML template.
 
 <h3>FEATURES</h3>
 <ul>
@@ -28,7 +28,7 @@ Easily close your WordPress website for maintenance. Try free version or purchas
 </ul>
 
 <h3>DEMO</h3>
-<a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">Demo website</a>
+<a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">Promo website</a>
 
 
 <h3>PRO version</h3>
@@ -50,7 +50,7 @@ Purchase PRO version with extended functionality and new features <br>
 
 = Where can I find out the username and password to get to the site? = 
 
-You can use your administrator access or create new user in WordPress dashboard
+You can use your administrator access or create new user in wordpress dashboard
 http://yousite.com/wp-admin/users.php
 
 = If I incorrectly write a login and password I will see the error on the page wp-login? =
@@ -59,15 +59,7 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 == Changelog ==
 
-= 2.0.1 = (18.12.2013)
-
-* Added max-height to logo
-* Added max-width to logo
-* Css changes
-* Bug fix
-
 = 2.0 = (17.12.2013)
-
 * New features
 * New PRO version
 * New design
@@ -79,7 +71,7 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 = 1.2.3 =  (28.08.2013)
 
-* WordPress 3.6 support
+* Wordpress 3.6 support
 * Bug fix 
 * Warning Messages, open_basedir conflict - resolved.
 

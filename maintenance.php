@@ -1,14 +1,14 @@
 <?php
 /*
 	Plugin Name: Maintenance
-	Plugin URI: http://wordpress.org/plugins/maintenance/
-	Description: Easily close your WordPress website for maintenance. Try free version or purchase maintenance PRO with more useful features and extended HTML template.
-	Version: 2.0.1
+	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
+	Description: Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
+	Version: 2.0.0
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
 */
-/*  Copyright 2013  Fruitful Code  (email : mail@fruitfulcode.com)
+/*  Copyright 2013  Fruitful Code  (email : support@fruitfulcode.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as 
