@@ -59,7 +59,8 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 == Changelog ==
 
-= 2.0 = (17.12.2013)
+= 2.0 =   (17.12.2013)
+
 * New features
 * New PRO version
 * New design
