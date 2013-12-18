@@ -113,6 +113,19 @@ footer {
 	float:left;
 }
 
+.logo .img-inner {
+	max-width:200px;
+	max-height:200px;
+	float:left;
+	display:block;
+}	
+
+.logo img {
+	float:left;
+	height:100%;
+	width:100%;
+}
+
 .site-title {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
