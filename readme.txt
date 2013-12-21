@@ -61,8 +61,8 @@ If you would like to create translation to your native language, you can send th
 If you have any questions or recommendations regarding the functionality of our plugins (existing options, new options, current issues), please feel free to contact us.
 
 <h3>How to thank a developers</h3>
-If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a>
-Each purchasing of PRO version make us more happy
+If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a>.
+Each purchasing of PRO version make us more happy.
 
 == Installation ==
 
@@ -75,6 +75,12 @@ Each purchasing of PRO version make us more happy
 
 == Frequently Asked Questions ==
 
+= I have activated plugin and don’t see any changes, looks like plugin is not working.
+Try to check in different browser. If you a logged as wordpress user you see website in normal mode.
+
+= Will my site remain visible to search engines while maintenance mode is on?
+The site will not be visible to search engines. "503 Service Temporarily Unavailable" can be changed in plugin options.
+
 = Where can I find out the username and password to get to the site? = 
 
 You can use your administrator access or create new user in wordpress dashboard
@@ -82,6 +88,9 @@ http://yousite.com/wp-admin/users.php
 
 = If I incorrectly write a login and password I will see the error on the page wp-login? =
 No, it will be display error on current maintenance page, without redirect to wp-login page
+
+= I haven’t found an answer to my question, what should I do?
+You can check <a href="http://wordpress.org/support/plugin/maintenance">support forum</a> or <a class="send-mail" href="mailto:mail@fruitfulcode.com?subject=Maintenance%20Plugin">send email to us</a>
 
 
 == Changelog ==
