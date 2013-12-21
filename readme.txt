@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
-Tags: maintenance, coming soon, under-construction, 503 error, temporarily unavailable, customize page, upload logo, background image, fullscreen, blur, color picker, login form, login, administration, admin, offline
+Tags: maintenance, coming soon, under-construction, 503 error, administration, login, customize page, background, fullscreen, blur
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 2.0.1
