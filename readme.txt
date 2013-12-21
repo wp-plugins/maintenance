@@ -32,7 +32,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">View demo</a>
 
 
-<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode"><h3>Maintenance PRO</h3></a>
+<h3>Maintenance PRO</h3>
 <strong>Required Free version.</strong> All features from FREE version included + 
 
 <ul>
@@ -104,6 +104,7 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 == Changelog ==
 
 = 2.0.1 = (21.12.2013)
+
 * New translation Brazilian Portuguese
 * Bug fix in title
 * Bug fix blur background image scroll
@@ -111,6 +112,7 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 
 
 = 2.0 = (17.12.2013)
+
 * New features
 * New PRO version
 * New design
