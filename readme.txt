@@ -59,7 +59,7 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 == Changelog ==
 
-= 2.0 =   (17.12.2013)
+= 2.0 =  // 17.12.2013
 
 * New features
 * New PRO version
@@ -70,13 +70,13 @@ No, it will be display error on current maintenance page, without redirect to wp
 * Blur background effect
 * 503 error switcher
 
-= 1.2.3 =  (28.08.2013)
+= 1.2.3 =  // 28.08.2013
 
 * Wordpress 3.6 support
 * Bug fix 
 * Warning Messages, open_basedir conflict - resolved.
 
-= 1.2.2 = (12.07.2013)
+= 1.2.2 = // 12.07.2013
 
 * Re-directed user to the root of the doman (not to subdirectory).
 * Bugfix, Notice in dasboard with debug mode.
