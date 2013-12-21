@@ -14,7 +14,7 @@ Maintenance - easy configure and customize coming soon, under construction page 
 
 Maintenance plugin allow WordPress site administrator close the website for maintenance, enable "503 Service temporarily unavailable”, set a temporary page with authorization, which can be edited via the plugin settings. Easy customize, good look on all devices. Add your logo, background image, select the desired color, add text. Extended version of the plugin includes more settings that appear after installation PRO extension plugin.
 
-<h3>Main features</h3>
+<h3>Features</h3>
 <ul>
 <li>Html/CSS layout without images (retina ready) </li>
 <li>Fullscreen background (<a target="_blank" href="https://github.com/srobbin/jquery-backstretch">Backstretch</a>)</li>
@@ -39,7 +39,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <li>Unique jQuery timer count down</li>
 <li>User permissions</li>
 <li>Fullscreen background gallery</li>
-<li>Gallery patterns overlays</li>
+<li>Gallery patterns overlays</li> 
 <li>Background video support</li>
 <li>Additional HTML area</li>
 <li>Social media profiles (<a target="_blank" href="http://zurb.com/playground/foundation-icons">Foundation icons</a>)</li>
