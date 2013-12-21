@@ -40,11 +40,11 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <li>User permissions</li>
 <li>Configurable color schemes</li>
 <li>Fullscreen background gallery</li>
-<li>Gallery patterns overlays<li>
+<li>Gallery patterns overlays</li>
 <li>Background video support</li>
 <li>Additional HTML area</li>
 <li>Social media profiles (<a target="_blank" href="http://zurb.com/playground/foundation-icons">Foundation icons</a>)</li>
-<li>MailChimp integration</li>
+<li>Email newsletter subscribe form (<a target="_blank" href="http://mailchimp.com/">MailChimp</a> integration) </li>
 <li>Developers support</li>
 </ul>
 
@@ -99,8 +99,8 @@ http://yousite.com/wp-admin/users.php
 = If I incorrectly write a login and password I will see the error on the page wp-login? =
 No, it will be display error on current maintenance page, without redirect to wp-login page
 
-= I haven’t found an answer to my question, what should I do?
-You can check <a href="http://wordpress.org/support/plugin/maintenance">support forum</a> or <a class="send-mail" href="mailto:mail@fruitfulcode.com?subject=Maintenance%20Plugin">send email to us</a>
+= I haven’t found an answer to my question, what should I do? = 
+You can check <a href="http://wordpress.org/support/plugin/maintenance">support forum</a> or <a class="send-mail" target="_blank" href="mailto:mail@fruitfulcode.com?subject=Maintenance%20Plugin">send email to us</a>
 
 
 == Changelog ==
