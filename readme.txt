@@ -8,7 +8,7 @@ Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Maintenance - easy configure and customize coming soon, under construction pages when site have updates or changes.
+Maintenance - easy configure and customize coming soon, under construction page when site have updates or changes.
 
 == Description ==
 
