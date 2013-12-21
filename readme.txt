@@ -77,7 +77,7 @@ Thanks for using.
 3.	Go to Dashboard > Maintenance
 
 == Screenshots ==
-1. Dashboard
+1. Maintenance options page
 
 == Frequently Asked Questions ==
 
