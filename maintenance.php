@@ -2,8 +2,8 @@
 /*
 	Plugin Name: Maintenance
 	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
-	Description: Easily close your wordpress website for maintenance. Try free version or purchase maintenance PRO with more useful features and extended HTML template.
-	Version: 2.0.0
+	Description: Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
+	Version: 2.0.1
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
@@ -82,11 +82,11 @@ class maintenance {
 		}
 		
 		function mt_template_redirect() {
-			load_maintenace_page();
+			load_maintenance_page();
 		}
 		
 		function mt_admin_bar() {
-			add_action('admin_bar_menu', 'maintenace_add_toolbar_items', 100);
+			add_action('admin_bar_menu', 'maintenance_add_toolbar_items', 100);
 			if (!is_admin() ) {
 				$mt_options = mt_get_plugin_options(true);
 				if (isset($mt_options['admin_bar_enabled']) && is_user_logged_in()) { 

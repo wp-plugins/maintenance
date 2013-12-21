@@ -1,18 +1,18 @@
 === Plugin Name ===
 Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
-Tags: maintenance, login, under-construction, administration, offline, unavailable, landing page
+Tags: maintenance, coming soon, under-construction, 503, unavailable, customize page, upload logo, background image, blur, color picker, login form, administration, offline
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Install maintenance page on your WordPress website in few easy steps.
+Maintenance - easy configure and customize coming soon, under construction pages when site have updates or changes.
 
 == Description ==
 
-Easily close your wordpress website for maintenance. Try free version or purchase maintenance PRO with more useful features and extended HTML template.
+Maintenance plugin allow WordPress site administrator close the website for maintenance, enable "503 Service temporarily unavailable”, set a temporary page with authorization, which can be edited via the plugin settings. Easy customize, good look on all devices. Add your logo, background image, select the desired color, add text. Extended version of the plugin includes more settings that appear after installation PRO extension plugin.
 
 <h3>FEATURES</h3>
 <ul>
@@ -27,15 +27,33 @@ Easily close your wordpress website for maintenance. Try free version or purchas
 <li>Blur background effect</li>
 </ul>
 
-<h3>DEMO</h3>
-<a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">Promo website</a>
+
+<a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">View demo</a>
 
 
-<h3>PRO version</h3>
+<h3>Maintenance PRO</h3>
+<strong>Required Free version installation</strong>
+<p>All features from FREE version included +</p>
 
-Purchase PRO version with extended functionality and new features <br>
-<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode">Maintenance PRO</a>
+<ul>
+<li>Unique jQuery timer count down</li>
+<li>User permissions</li>
+<li>Full screen background gallery with patterns overlays</li>
+<li>Background video support</li>
+<li>Additional HTML area</li>
+<li>Social media profiles</li>
+<li>Mailchimp integration</li>
+<li>Developers support</li>
+</ul>
 
+<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode">Get additional functionality</a>
+
+<h3>Translation</h3>
+
+<ul>
+<li>Russian (ru_RU)</li>
+<li>Brazilian Portuguese (pt_BR) (thanks to Luiz Felipe Silva Cristofari)</li>
+</ul>
 
 == Installation ==
 
@@ -59,8 +77,14 @@ No, it will be display error on current maintenance page, without redirect to wp
 
 == Changelog ==
 
-= 2.0 =   (17.12.2013)
+= 2.0.1 = (21.12.2013)
+* New translation Brazilian Portuguese
+* Bug fix in title
+* Bug fix blur background image scroll
 
+
+
+= 2.0 = (17.12.2013)
 * New features
 * New PRO version
 * New design
