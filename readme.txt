@@ -14,13 +14,13 @@ Maintenance - easy configure and customize coming soon, under construction page 
 
 Maintenance plugin allow WordPress site administrator close the website for maintenance, enable "503 Service temporarily unavailable”, set a temporary page with authorization, which can be edited via the plugin settings. Easy customize, good look on all devices. Add your logo, background image, select the desired color, add text. Extended version of the plugin includes more settings that appear after installation PRO extension plugin.
 
-<h3>FEATURES</h3>
+<h3>Main features</h3>
 <ul>
 <li>Html/CSS layout without images (retina ready) </li>
 <li>Fullscreen background (<a target="_blank" href="https://github.com/srobbin/jquery-backstretch">Backstretch</a>)</li>
 <li>Blur background effect</li>
 <li>Upload own logo</li>
-<li>Configurable colors: fonts, background</li>
+<li>Configurable colors: fonts, icons, background</li>
 <li>Add your title, headline, text</li>
 <li>User login with validation</li>
 <li>Admin bar: show/hide</li>
@@ -33,8 +33,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 
 
 <h3>Maintenance PRO</h3>
-<strong>Required Free version installation</strong>
-<p>All features from FREE version included +</p>
+<strong>Required Free version.</strong> All features from FREE version included + 
 
 <ul>
 <li>Unique jQuery timer count down</li>
@@ -56,7 +55,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <li>Brazilian Portuguese (pt_BR) (thanks to Luiz Felipe Silva Cristofari)</li>
 </ul>
 
-If you would like to create translation to your native language, you can send the <a target="_blank" href="http://codex.wordpress.org/Translating_WordPress">text of PO and MO files</a> to the <a href="http://fruitfulcode.com" target="_blank">Fruitful Code</a> and we'll add it to the next plugin uodate. You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+<p>If you would like to create translation to your native language, you can send the <a target="_blank" href="http://codex.wordpress.org/Translating_WordPress">text of PO and MO files</a> to the <a href="http://fruitfulcode.com" target="_blank">Fruitful Code</a> and we'll add it to the next plugin update.</p><p> You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.</p>
 
 <h3>Technical support</h3>
 If you have any questions or recommendations regarding the functionality of our plugins (existing options, new options, current issues), please feel free to contact us.
