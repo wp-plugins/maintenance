@@ -32,7 +32,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <a target="_blank" href="http://plugins.fruitfulcode.com/maintenance/">View demo</a>
 
 
-<h3>Maintenance PRO</h3>
+<a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode"><h3>Maintenance PRO</h3></a>
 <strong>Required Free version.</strong> All features from FREE version included + 
 
 <ul>
@@ -65,7 +65,7 @@ If you have any questions or recommendations regarding the functionality of our 
 <li>If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a></li>
 <li>Make review in your blog or journal with URL link to official plugin page and plugin demo </li>
 <li>Recommend "Maintenance plugin" to your friends</li>
-<li>Each purchasing of PRO version make us more happy</li>
+<li>Each purchasing of <a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode">PRO</a> version make us more happy</li>
 </ol>
 
 Thanks for using.
