@@ -17,14 +17,15 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <h3>FEATURES</h3>
 <ul>
 <li>Html/CSS layout without images (retina ready) </li>
-<li>Backstretch fullscreen background</li>
+<li>Fullscreen background (<a target="_blank" href="https://github.com/srobbin/jquery-backstretch">Backstretch</a>)</li>
+<li>Blur background effect</li>
 <li>Upload own logo</li>
-<li>Select color scheme</li>
+<li>Configurable colors: fonts, background</li>
 <li>Add your title, headline, text</li>
 <li>User login with validation</li>
 <li>Admin bar: show/hide</li>
 <li>503 error on/off</li>
-<li>Blur background effect</li>
+
 </ul>
 
 
@@ -38,14 +39,12 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <ul>
 <li>Unique jQuery timer count down</li>
 <li>User permissions</li>
-<li>Configurable color schemes</li>
 <li>Fullscreen background gallery</li>
 <li>Gallery patterns overlays</li>
 <li>Background video support</li>
 <li>Additional HTML area</li>
 <li>Social media profiles (<a target="_blank" href="http://zurb.com/playground/foundation-icons">Foundation icons</a>)</li>
 <li>Email newsletter subscribe form (<a target="_blank" href="http://mailchimp.com/">MailChimp</a> integration) </li>
-<li>Developers support</li>
 </ul>
 
 <a target="_blank" href="http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode">Get additional functionality</a>
