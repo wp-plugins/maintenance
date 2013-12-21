@@ -63,8 +63,14 @@ If you would like to create translation to your native language, you can send th
 If you have any questions or recommendations regarding the functionality of our plugins (existing options, new options, current issues), please feel free to contact us.
 
 <h3>How to thank a developers</h3>
-If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a>.
-Each purchasing of PRO version make us more happy.
+<ol>
+<li>If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a></li>
+<li>Make review in your blog or journal with URL link to official plugin page and plugin demo <li>
+<li>Recommend "Maintenance plugin" to your friends</li>
+<li>Each purchasing of PRO version make us more happy</li>
+</ol>
+
+Thanks for using.
 
 == Installation ==
 
