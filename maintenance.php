@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Maintenance
 	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
-	Description: Take your site down from public view with a click of a button hiding the site when you need to change a few things or run an upgrade, making it only accessible by login and password. There is also an area to add a custom message which will be shown to the users while your site is down. Users stay on the same page when they input wrong initials.
+	Description: Maintenance - easy configure and customize coming soon, under construction page when site have updates or changes.
 	Version: 2.0.1
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
