@@ -23,7 +23,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <li>Add your title, headline, text</li>
 <li>User login with validation</li>
 <li>Admin bar: show/hide</li>
-<li>503 error switcher</li>
+<li>503 error on/off</li>
 <li>Blur background effect</li>
 </ul>
 
@@ -38,11 +38,13 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <ul>
 <li>Unique jQuery timer count down</li>
 <li>User permissions</li>
-<li>Full screen background gallery with patterns overlays</li>
+<li>Configurable color schemes<li>
+<li>Fullscreen background gallery</li>
+<li>Gallery patterns overlays<li>
 <li>Background video support</li>
 <li>Additional HTML area</li>
-<li>Social media profiles</li>
-<li>Mailchimp integration</li>
+<li>Social media profiles (<a target="_blank" href="http://zurb.com/playground/foundation-icons">Foundation icons</a>)</li>
+<li>MailChimp integration</li>
 <li>Developers support</li>
 </ul>
 
@@ -76,9 +78,11 @@ Each purchasing of PRO version make us more happy.
 == Frequently Asked Questions ==
 
 = I have activated plugin and don’t see any changes, looks like plugin is not working.
+
 Try to check in different browser. If you a logged as wordpress user you see website in normal mode.
 
 = Will my site remain visible to search engines while maintenance mode is on?
+
 The site will not be visible to search engines. "503 Service Temporarily Unavailable" can be changed in plugin options.
 
 = Where can I find out the username and password to get to the site? = 
