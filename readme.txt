@@ -105,6 +105,7 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 
 = 2.0.1 = (21.12.2013)
 
+* Wordpress 3.8 support
 * New translation Brazilian Portuguese
 * Bug fix in title
 * Bug fix blur background image scroll
