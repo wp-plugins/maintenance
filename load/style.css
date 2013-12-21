@@ -13,7 +13,6 @@ body {
 	font-family:"Open Sans", sans-serif;
 	height:100%;
 	width: 100%;
-	overflow:auto;
 }
 
 body > #wrapper {height: auto; min-height: 100%; width:100%;}
@@ -111,6 +110,19 @@ footer {
 	font-weight:normal;
 	text-decoration:none;
 	float:left;
+}
+
+.logo .img-inner {
+	max-width:200px;
+	max-height:200px;
+	float:left;
+	display:block;
+}	
+
+.logo img {
+	float:left;
+	height:100%;
+	width:100%;
 }
 
 .site-title {
@@ -350,6 +362,8 @@ footer {
 	font-family: 'Open Sans', sans-serif;
 	opacity:1;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
