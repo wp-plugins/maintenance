@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
-Tags: maintenance, coming soon, under-construction, 503, unavailable, customize page, upload logo, background image, blur, color picker, login form, administration, offline
+Tags: maintenance, coming soon, under-construction, 503 error, temporarily unavailable, customize page, upload logo, background image, fullscreen, blur, color picker, login form, login, administration, admin, offline
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 2.0.1
@@ -54,6 +54,15 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <li>Russian (ru_RU)</li>
 <li>Brazilian Portuguese (pt_BR) (thanks to Luiz Felipe Silva Cristofari)</li>
 </ul>
+
+If you would like to create translation to your native language, you can send the <a target="_blank" href="http://codex.wordpress.org/Translating_WordPress">text of PO and MO files</a> to the <a href="http://fruitfulcode.com" target="_blank">Fruitful Code</a> and we'll add it to the next plugin uodate. You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+
+<h3>Technical support</h3>
+If you have any questions or recommendations regarding the functionality of our plugins (existing options, new options, current issues), please feel free to contact us.
+
+<h3>How to thank a developers</h3>
+If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a>
+Each purchasing of PRO version make us more happy
 
 == Installation ==
 
