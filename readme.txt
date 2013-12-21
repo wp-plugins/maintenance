@@ -38,7 +38,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <ul>
 <li>Unique jQuery timer count down</li>
 <li>User permissions</li>
-<li>Configurable color schemes<li>
+<li>Configurable color schemes</li>
 <li>Fullscreen background gallery</li>
 <li>Gallery patterns overlays<li>
 <li>Background video support</li>
@@ -65,7 +65,7 @@ If you have any questions or recommendations regarding the functionality of our 
 <h3>How to thank a developers</h3>
 <ol>
 <li>If you like our plugin and want to say us thank you, please <a href="http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5">leave us review</a></li>
-<li>Make review in your blog or journal with URL link to official plugin page and plugin demo <li>
+<li>Make review in your blog or journal with URL link to official plugin page and plugin demo </li>
 <li>Recommend "Maintenance plugin" to your friends</li>
 <li>Each purchasing of PRO version make us more happy</li>
 </ol>
@@ -83,11 +83,11 @@ Thanks for using.
 
 == Frequently Asked Questions ==
 
-= I have activated plugin and don’t see any changes, looks like plugin is not working.
+= I have activated plugin and don’t see any changes, looks like plugin is not working. =
 
 Try to check in different browser. If you a logged as wordpress user you see website in normal mode.
 
-= Will my site remain visible to search engines while maintenance mode is on?
+= Will my site remain visible to search engines while maintenance mode is on? =
 
 The site will not be visible to search engines. "503 Service Temporarily Unavailable" can be changed in plugin options.
 
