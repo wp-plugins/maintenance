@@ -53,6 +53,7 @@ Maintenance plugin allow WordPress site administrator close the website for main
 <ul>
 <li>Russian (ru_RU)</li>
 <li>Brazilian Portuguese (pt_BR) (thanks to Luiz Felipe Silva Cristofari)</li>
+<li>Spanish (es_ES) (Thanks to David Perez)
 </ul>
 
 <p>If you would like to create translation to your native language, you can send the <a target="_blank" href="http://codex.wordpress.org/Translating_WordPress">text of PO and MO files</a> to the <a href="http://fruitfulcode.com" target="_blank">Fruitful Code</a> and we'll add it to the next plugin update.</p><p> You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.</p>
