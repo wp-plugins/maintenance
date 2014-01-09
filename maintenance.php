@@ -1,14 +1,14 @@
 <?php
 /*
 	Plugin Name: Maintenance
-	Plugin URI: http://wordpress.org/extend/plugins/maintenance/
+	Plugin URI: http://wordpress.org/plugins/maintenance/
 	Description: Maintenance - easy configure and customize coming soon, under construction page when site have updates or changes.
 	Version: 2.0.1
 	Author: fruitfulcode
 	Author URI: http://fruitfulcode.com
 	License: GPL2
 */
-/*  Copyright 2013  Fruitful Code  (email : support@fruitfulcode.com)
+/*  Copyright 2013  Fruitful Code  (email : mail@fruitfulcode.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as 
