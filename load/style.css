@@ -387,3 +387,7 @@ and (max-device-width : 1024px)  {
 	header {padding:25px 0;}
 	.login-form { margin:0 auto; float:none; width:100%; max-width:430px;}
 }
+
+@media screen and (max-device-width: 640px), screen and (-webkit-min-device-pixel-ratio: 2) and (orientation:portrait) { 
+	.logo img {height: auto; width: auto; margin-top:40px;}	
+}
