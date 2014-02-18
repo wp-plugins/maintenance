@@ -146,7 +146,7 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 * Css fixes for WP 3.5
 
 = 1.1.1 =
-Css fixes
+*Css fixes
 
 = 1.1 =
 * Any logo images will be in center of page
