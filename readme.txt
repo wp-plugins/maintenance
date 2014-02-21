@@ -4,7 +4,7 @@ Donate link: http://fruitfulcode.com/
 Tags: maintenance, coming soon, under-construction, 503 error, administration, login, customize page, background, fullscreen, blur
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 2.1
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -105,6 +105,11 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 
 == Change log ==
 
+= 2.1.1 =
+* Content alignment fix
+* Added scroll for extra height
+* Translation updates
+
 = 2.1 = 
 * New option Login on/off
 * New option Google Analytics field
@@ -146,7 +151,7 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 * Css fixes for WP 3.5
 
 = 1.1.1 =
-* Css fixes
+*Css fixes
 
 = 1.1 =
 * Any logo images will be in center of page
