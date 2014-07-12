@@ -28,6 +28,7 @@
 #maintenance-options input#page_title,
 #maintenance-options input#heading,
 #maintenance-options textarea { width:100%; }
+#maintenance-options input.social-input {width:50%;}
 #maintenance-options input[type="checkbox"] { margin:0 5px 0 0; }
 #maintenance-options  #poststuff .metabox-holder .postbox-container.column-1 {float: left;  width: 65%;}
 #maintenance-options  #poststuff .metabox-holder .postbox-container.column-2 {float: right; width: 28%; min-width:300px;}
